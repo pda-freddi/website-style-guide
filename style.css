@@ -37,9 +37,13 @@ main article {
     border: 1px solid black;
 }
 
-main article h3 {
+main article h2 {
   padding: 0;
   margin: 0;
+}
+
+.property-name {
+    font-family: "Roboto Mono";
 }
 
 /* Colors section */
@@ -98,6 +102,11 @@ main .color-options li {
 
 /* Fonts section */
 
+#fonts a:visited {
+  color: #060e9e;
+  text-decoration: underline;
+}
+
 .font-list {
     list-style-type: none;
     margin: 0;
@@ -145,6 +154,92 @@ main .color-options li {
     font-family: "Roboto Mono";
 }
 
+/* Headings section */
+
+#h1-heading h1 {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 24px;
+    text-decoration: underline;
+}
+
+#h2-heading h2 {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 22px;
+    font-style: italic;
+}
+
+#h3-heading h3 {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+}
+
+#h4-heading h4 {
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+/* Paragraphs section */
+
+#example-paragraph {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Links section */
+
+#links a {
+    color: #060e9e;
+    text-decoration: underline;
+}
+
+#links a:hover {
+    color: black;
+    background-color: #6bc7e3;
+}
+
+#links a:active {
+    font-size: 1.1em;
+    background-color: #d91c2c;
+    color: white;
+}
+
+/* Buttons section */
+
+#buttons button {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #d91c2c;
+    padding: 10px;
+    transition: background-color .25s linear, color .25s linear;
+}
+
+#buttons button:hover {
+  background-color: #fcf63a;
+  color: black;
+}
+
+#buttons button:active {
+    background-color: lightgrey;
+    transition: none;
+}
+
+/* Footer styles */
+
+footer a {
+    color: black;
+    text-decoration: underline;
+}
 
 
 
