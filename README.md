@@ -6,4 +6,6 @@ The objective was to build a fictional design system for a website, specifying c
 
 It was a great opportunity to practice introductory HTML and CSS concepts.
 
+You can find the live version [here](https://pedro-freddi.github.io/website-style-guide/).
+
 Thanks for visiting!
